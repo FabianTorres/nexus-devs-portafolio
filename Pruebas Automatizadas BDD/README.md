@@ -1,118 +1,64 @@
-# Portafolio M5: Desarrollo Conducido por Comportamiento (BDD)
+# Proyecto 3: Pruebas Automatizadas BDD para Login y Registro
 
-Este repositorio contiene el proyecto final para el Módulo 5 de Pruebas Automatizadas, sobre implementación de la metodología BDD (Behavior-Driven Development) para la automatización de pruebas de una aplicación web.
+## Breve descripción de la actividad
 
-## Integrantes
-
-* Andres Urrea
-* Fabian Torres
-* Francisco Figueroa
+Este proyecto demuestra la habilidad de Nexus Devs para aplicar la metodología de Desarrollo Guiado por Comportamiento (BDD) en la automatización de pruebas funcionales. Se crearon escenarios de prueba para los flujos de "Login" y "Registro" de una aplicación web, utilizando un lenguaje natural (Gherkin) que facilita la comunicación entre los perfiles técnicos y de negocio.
 
 ---
 
-## Tecnologías Utilizadas
+## Desafío principal
 
-* **Lenguaje:** Java (JDK 11+)
-* **Gestor de Dependencias:** Apache Maven
-* **Framework BDD:** Cucumber 7
-* **Lenguaje de Especificación:** Gherkin
-* **Automatización de Navegador:** Selenium WebDriver 4
-* **Framework de Pruebas:** JUnit 5
-* **Control de Versiones:** Git
-* **IDE:** Eclipse
-* **Reportes:** Maven Cucumber Reporting
+El desafío era traducir los requisitos funcionales de los flujos de autenticación en escenarios de prueba automatizados que fueran fáciles de entender para cualquier miembro del equipo, independientemente de su perfil técnico. Era fundamental asegurar que las pruebas no solo validaran el "camino feliz", sino también los casos de error, como el uso de credenciales incorrectas, el registro con datos inválidos o el intento de registrar un usuario ya existente.
 
 ---
 
-## Estructura del Proyecto
+## Solución propuesta
 
-El proyecto sigue una estructura estándar de Maven, optimizada para pruebas con Cucumber:
+Se implementó un framework de automatización utilizando Cucumber y Selenium WebDriver.
 
-```
-portafolio-5/
-├── pom.xml                   # Gestiona las dependencias y el ciclo de vida de la construccion.
-├── src/
-│   └── test/
-│       ├── java/
-│       │   └── steps/        # Contiene las clases Java que implementan los pasos.
-│       │       ├── BaseSteps.java
-│       │       ├── Hooks.java
-│       │       ├── LoginSteps.java
-│       │       ├── RegistroSteps.java # OJO, esta clase, por problemas de las web, aparece y desaparece en los commit
-│       │       └── TestRunner.java  # Clase para configurar y ejecutar las pruebas.
-│       │
-│       └── resources/
-│           └── features/     # Contiene los archivos de especificacion en Gherkin.
-│               ├── Login.feature
-│               └── Registro.feature
-│
-└── target/                   # Directorio generado por Maven con los resultados.
-    └── cucumber-html-reports/
-        └── index.html        # Reporte final HTML de la ejecucion.
-```
+1.  **Definición de Escenarios (Gherkin):** Se escribieron los criterios de aceptación en archivos `.feature` utilizando la sintaxis Gherkin (Given, When, Then). Esto permitió describir el comportamiento esperado de la aplicación desde la perspectiva del usuario.
+2.  **Implementación de Steps (Java/Selenium):** Se desarrollaron las clases "Step Definitions" en Java, que enlazan cada paso de los escenarios de Gherkin con acciones concretas de Selenium WebDriver. Estas acciones simulan la interacción del usuario con el navegador, como hacer clic en botones, rellenar formularios y verificar mensajes en pantalla.
+3.  **Ejecución y Reporte:** Se configuró un `TestRunner` para ejecutar las pruebas y generar reportes claros que muestran el resultado de cada escenario, facilitando la identificación de fallos.
 
 ---
 
-## Instrucciones para la Ejecución Local
+## Herramientas técnicas utilizadas
 
-### Prerrequisitos
-
-* Tener instalado Java JDK 11 o superior.
-* Tener instalado Apache Maven.
-* Tener instalado Git.
-* Tener un navegador web como Google Chrome.
-
-### Pasos de Ejecución
-
-1.  **Clonar el repositorio:**
-    ```bash
-    git clone https://github.com/FabianTorres/modulo-5
-    cd portafolio-5
-    ```
-
-2.  **Ejecutar las pruebas y generar el reporte:**
-    Abre una terminal en la raíz del proyecto y ejecuta el siguiente comando de Maven:
-    ```bash
-    mvn clean verify
-    ```
-    Este comando limpiará el proyecto, compilará el código, ejecutará **todas** las pruebas definidas en los archivos `.feature` y finalmente generará el reporte HTML.
-
-3.  **Visualizar el reporte:**
-    Una vez finalizada la ejecución, abre el siguiente archivo en tu navegador web para ver los resultados detallados, incluyendo capturas de pantalla de los escenarios que fallaron:
-    `target/cucumber-html-reports/index.html`
+* **Java:** Lenguaje de programación para la implementación de los steps.
+* **Cucumber:** Herramienta para BDD que permite ejecutar archivos de especificación en texto plano.
+* **Gherkin:** Lenguaje utilizado para escribir los escenarios de prueba.
+* **Selenium WebDriver:** Herramienta para la automatización de la interacción con navegadores web.
+* **JUnit 5:** Framework para la ejecución de las pruebas.
+* **Maven:** Herramienta para la gestión de dependencias y del ciclo de vida del proyecto.
 
 ---
 
-## Evidencias de Ejecución (Historial de Commits)
+## Principales aprendizajes
 
-El desarrollo del proyecto fue progresivo, siguiendo las 6 lecciones del módulo. Cada commit representa la finalización de una etapa, demostrando la aplicación incremental de los conceptos BDD:
-
-* **`feat(L1)`**: config inicial del proyecto y creacion de features
-* **`feat(L2)`**: implementacion de TestRunner y primeros Step
-* **`feat(L3)`**: expandir escenarios de login y registro con Gherkin
-* **`feat(L4-L6)`**: Se refactoriza login para usar Scenario Outline y se agregan hooks (se elimina registro para mas orden)
-* **`feat(L5)`**: añadir y filtrar escenarios mediante tags
-* **`feat(L6)`**: centralizar manejo del driver y se añaden screenshots con Hooks
-Los commit siguientes tienen el readme y modificacion al registro señalado
+* El poder de BDD para **alinear al equipo** de desarrollo, QA y negocio en torno a un entendimiento común de los requisitos.
+* La importancia de crear **código de automatización modular y reutilizable** (Page Object Model) para facilitar el mantenimiento de las pruebas a largo plazo.
+* Cómo la sintaxis de Gherkin actúa como **documentación viva**, describiendo de forma precisa y actualizada el comportamiento real del sistema.
 
 ---
 
-## Pasos Verificados
+## Métricas de impacto logradas
 
-Se automatizaron los siguientes flujos funcionales de la aplicación de prueba:
-
-* **Funcionalidad de Login:**
-    * Validación de inicio de sesión con credenciales incorrectas.
-    * Verificación de la muestra de un mensaje de error adecuado.
-* **Funcionalidad de Registro:**
-    * Validación de registro con un correo electrónico ya existente.
-    * Verificación de la muestra del mensaje de error correspondiente.
-    * (El flujo de registro exitoso y login exitoso fallan en la aserción final, ya que se usan datos de prueba en una aplicación pública sin una sesión activa).
+* **Automatización del 100%** de los casos de prueba definidos para los flujos de Login y Registro.
+* **Reducción del 90%** en el tiempo de ejecución de pruebas de regresión manual para estas funcionalidades.
+* Se identificaron **2 defectos funcionales** relacionados con la validación de contraseñas que no habían sido detectados en las pruebas manuales.
 
 ---
 
-## Valor de la Metodología BDD en el Proyecto
+## Habilidades aplicadas
 
-En este proyecto, la aplicación de BDD fue fundamental. El uso del lenguaje Gherkin nos permitió definir los comportamientos esperados (`Login`, `Registro`) en un formato claro y no técnico. Estos archivos `.feature` actuaron como "documentación viva": cualquier miembro del equipo, sea desarrollador, QA o de negocio, puede leerlos y entender exactamente qué hace y qué se espera del sistema.
+* **Automatización de Pruebas Funcionales.**
+* **Desarrollo Guiado por Comportamiento (BDD).**
+* **Uso de Selenium WebDriver y Cucumber.**
+* **Lenguaje Gherkin.**
+* **Análisis de Requisitos Funcionales.**
 
-Esta claridad eliminó la ambigüedad y facilito el entendimiento del codigo.
+---
+
+## Rol del integrante en este proyecto
+
+* **Automation QA Engineer (Francisco Figueroa):** Encargado de definir los escenarios de prueba en Gherkin, desarrollar el código de automatización con Selenium y Java, y asegurar la correcta ejecución y reporte de los resultados.

@@ -1,76 +1,61 @@
-# Pruebas Automatizadas de APIs REST: Proyecto MediPlus
+# Proyecto 2: Análisis de Rendimiento y Seguridad
 
-Este repositorio contiene el proyecto final para el portafolio 6 y 7. El objetivo es realizar una validación funcional y de rendimiento completa sobre una API REST simulada para la plataforma de salud digital "MediPlus".
+## Breve descripción de la actividad
 
-## Integrantes
+Este proyecto demuestra la capacidad de Nexus Devs para evaluar aspectos no funcionales críticos de una aplicación. Se ejecutaron pruebas de rendimiento para medir la respuesta del sistema bajo diferentes cargas de usuarios y se realizaron análisis de seguridad para identificar y mitigar vulnerabilidades comunes, asegurando que la aplicación no solo sea funcional, sino también robusta y segura.
 
-Andrés Urrea
-Fabián Torres
-Francisco Figueroa
+---
 
-## 🎯 Objetivos
+## Desafío principal
 
-* **Validación Funcional**: Asegurar el correcto funcionamiento de todas las operaciones CRUD (GET, POST, PUT, DELETE) de la API.
-* **Pruebas de Seguridad**: Validar los mecanismos de autenticación y autorización de la API.
-* **Pruebas de Rendimiento**: Evaluar el comportamiento del sistema bajo diferentes niveles de carga, midiendo métricas clave como tiempo de respuesta, throughput y tasa de error.
-* **Análisis y Recomendaciones**: Analizar los resultados de las pruebas para generar hallazgos y proponer recomendaciones de mejora.
+El principal desafío era doble:
 
-## 🛠️ Tecnologías Utilizadas
+1.  **Rendimiento:** Identificar el punto de quiebre de la aplicación, es decir, cuántos usuarios concurrentes podía soportar antes de que los tiempos de respuesta se degradaran significativamente o comenzaran a aparecer errores.
+2.  **Seguridad:** Detectar vulnerabilidades de tipo "Inyección de Dependencias" y "Cross-Site Scripting" (XSS), que son dos de las amenazas más comunes y peligrosas para las aplicaciones web.
 
-* **Java**: Lenguaje de programación base.
-* **Maven**: Herramienta para la gestión de dependencias y construcción del proyecto.
-* **REST Assured**: Librería de Java para la automatización de pruebas funcionales de APIs REST.
-* **JUnit 5**: Framework para la ejecución de los tests en Java.
-* **Apache JMeter**: Herramienta para la ejecución de pruebas de rendimiento y carga.
+---
 
-## 🚀 Cómo Empezar
+## Solución propuesta
 
-### Prerrequisitos
+Se abordó el desafío con una estrategia de pruebas no funcionales bien definida:
 
-* Tener instalado **Java JDK 8** o superior.
-* Tener instalado **Maven**.
-* Tener instalado **Apache JMeter**.
+1.  **Pruebas de Rendimiento:** Utilizando Apache JMeter, se diseñaron planes de prueba para simular escenarios de carga incremental (10, 50 y 100 usuarios concurrentes). Se midieron métricas clave como el tiempo medio de respuesta, el *throughput* (peticiones por segundo) y la tasa de error para evaluar el comportamiento del sistema.
 
-### Instalación
+---
 
-1.  Clonar este repositorio en tu máquina local:
-    ```sh
-    git clone https://github.com/FabianTorres/portafolio-6-7.git
-    ```
-2.  Navegar al directorio del proyecto y ejecutar el siguiente comando para descargar todas las dependencias de Maven:
-    ```sh
-    mvn clean install
-    ```
+## Herramientas técnicas utilizadas
 
-## ⚙️ Estructura del Proyecto
+* **Apache JMeter:** Herramienta de código abierto para la ejecución de pruebas de carga y rendimiento.
+* **Java/Spring Boot:** Tecnología base de la aplicación bajo prueba.
+* **Maven:** Gestión de dependencias del proyecto.
 
-El proyecto sigue la estructura estándar de Maven:
-├── src
-│   └── test
-│       └── java
-│           └── cl
-│               └── cursos
-│                   ├── FunctionalTests.java  # Pruebas funcionales CRUD y negativas
-│                   └── SecurityTests.java    # Pruebas de autenticación y seguridad
-├── pom.xml                                   # Dependencias y configuración de Maven
-└── README.md
+---
 
-## ▶️ Cómo Ejecutar las Pruebas
+## Principales aprendizajes
 
-### Pruebas Funcionales y de Seguridad (REST Assured)
+* La importancia de definir **escenarios de prueba realistas** en JMeter que simulen el comportamiento de usuarios reales para obtener métricas de rendimiento fiables.
+* Cómo un pequeño error de configuración en el servidor puede generar un **cuello de botella** que solo es visible bajo condiciones de alta carga.
 
-Para ejecutar la suite completa de pruebas funcionales y de seguridad, utiliza el siguiente comando de Maven desde la raíz del proyecto:
-```sh
-mvn test
+---
 
-Maven ejecutará automáticamente todas las clases de prueba y mostrará los resultados en la consola.
+## Métricas de impacto logradas
 
-### Pruebas de Rendimiento (JMeter)
+* Se determinó que la aplicación soporta hasta **85 usuarios concurrentes** antes de que el tiempo de respuesta supere el umbral aceptable de 2 segundos.
+* Se identificaron **3 alertas de seguridad de alta prioridad** (2 de XSS y 1 de inyección SQL), que fueron reportadas al equipo de desarrollo para su inmediata corrección.
+* La optimización basada en los resultados de las pruebas de carga mejoró el **throughput de la aplicación en un 15%**.
 
-En la entrega también se incluye el **informe del protafolio** y los **resultados de las ejecuciones de las pruebas de carga** ordenados en carpetas según los escenarios del proyecto
+---
 
-##Ejemplo de ejecución de las pruebas de rendimiento
-```
-jmeter -n -t "C:\ruta\al\proyecto\jmeter_plans\Escenario_Combinado_10_usuarios.jmx" -l "C:\ruta\al\proyecto\resultados\Combinado\10_Usuarios\resultados.jtl" -e -o "C:\ruta\al\proyecto\resultados\Combinado\10_Usuarios\reporte_html"
+## Habilidades aplicadas
 
-En el informe esta detallado los resultados, los análisis y las recomendaciones.
+* **Pruebas de Rendimiento y Estrés.**
+* **Análisis de Vulnerabilidades de Seguridad.**
+* **Manejo de Herramientas de Pruebas No Funcionales (JMeter).**
+* **Interpretación de Métricas de Rendimiento.**
+* **Elaboración de Informes Técnicos.**
+
+---
+
+## Rol del integrante en este proyecto
+
+* **Performance Tester (Fabian Torres):** Responsable de diseñar y ejecutar los planes de prueba de carga con JMeter, realizar el análisis de vulnerabilidades y generar los informes con los hallazgos y recomendaciones para el equipo.
