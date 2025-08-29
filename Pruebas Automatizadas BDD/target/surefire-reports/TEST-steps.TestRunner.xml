@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="steps.TestRunner" time="14.966" tests="5" errors="1" skipped="1" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\fabia\eclipse-workspace\portafolio-5\target\test-classes;C:\Users\fabia\eclipse-workspace\portafolio-5\target\classes;C:\Users\fabia\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\fabia\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\fabia\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\fabia\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.18.0\cucumber-junit-platform-engine-7.18.0.jar;C:\Users\fabia\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\fabia\.m2\repository\org\junit\platform\junit-platform-suite\1.10.3\junit-platform-suite-1.10.3.jar;C:\Users\fabia\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.3\junit-platform-suite-api-1.10.3.jar;C:\Users\fabia\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.3\junit-platform-suite-engine-1.10.3.jar;C:\Users\fabia\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.3\junit-platform-suite-commons-1.10.3.jar;C:\Users\fabia\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.3\junit-platform-launcher-1.10.3.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\fabia\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\fabia\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\fabia\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\fabia\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\fabia\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\fabia\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\fabia\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\fabia\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\fabia\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\fabia\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\fabia\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\fabia\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\fabia\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\fabia\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Santiago"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CL"/>
+    <property name="sun.boot.library.path" value="C:\java\java_jdk_17\bin"/>
+    <property name="sun.java.command" value="C:\Users\fabia\AppData\Local\Temp\surefire10074196387671581741\surefirebooter-20250808203920287_3.jar C:\Users\fabia\AppData\Local\Temp\surefire10074196387671581741 2025-08-08T20-39-20_179-jvmRun1 surefire-20250808203920287_1tmp surefire_0-20250808203920287_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\fabia\eclipse-workspace\portafolio-5\target\test-classes;C:\Users\fabia\eclipse-workspace\portafolio-5\target\classes;C:\Users\fabia\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\fabia\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\fabia\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\fabia\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\fabia\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.18.0\cucumber-junit-platform-engine-7.18.0.jar;C:\Users\fabia\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\fabia\.m2\repository\org\junit\platform\junit-platform-suite\1.10.3\junit-platform-suite-1.10.3.jar;C:\Users\fabia\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.3\junit-platform-suite-api-1.10.3.jar;C:\Users\fabia\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.3\junit-platform-suite-engine-1.10.3.jar;C:\Users\fabia\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.3\junit-platform-suite-commons-1.10.3.jar;C:\Users\fabia\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.3\junit-platform-launcher-1.10.3.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\fabia\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\fabia\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\fabia\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\fabia\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\fabia\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\fabia\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\fabia\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\fabia\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\fabia\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\fabia\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\fabia\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\fabia\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\fabia\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\fabia\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\fabia\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\fabia\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\fabia"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\java\java_jdk_17"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\fabia\eclipse-workspace\portafolio-5"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\fabia\AppData\Local\Temp\surefire10074196387671581741\surefirebooter-20250808203920287_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="fabia"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\fabia\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\fabia\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\fabia\eclipse-workspace\portafolio-5"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\java\java_jdk_17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/fabia/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916/jre/bin/server;C:/Users/fabia/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\fabia\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\fabia\AppData\Local\Programs\Python\Python311\;C:\Users\fabia\AppData\Local\Microsoft\WindowsApps;C:\Programas\Microsoft VS Code\bin;C:\Users\fabia\.dotnet\tools;C:\Users\fabia\AppData\Roaming\npm;C:\java\java_jdk\bin;C:\Programas\apache-maven-3.9.10\bin;;C:\Windows\System32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Example #1.1" classname="Examples" time="3.618">
+    <failure message="La URL despues del login no es la esperada. ==&gt; expected: &lt;https://courses.ultimateqa.com/collections&gt; but was: &lt;https://courses.ultimateqa.com/users/sign_in&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: La URL despues del login no es la esperada. ==> expected: <https://courses.ultimateqa.com/collections> but was: <https://courses.ultimateqa.com/users/sign_in>
+	at steps.LoginSteps.sistemaMuestraResultado(LoginSteps.java:35)
+	at ✽.el sistema muestra el resultado "exitoso"(classpath:features/Login.feature:11)
+]]></failure>
+    <system-out><![CDATA[
+@Login @Regression @SmokeTest
+Scenario Outline: Validacion de inicio de sesion con diferentes credenciales       &amp#27;[90m# features/Login.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mel usuario se encuentra en la pagina de inicio de sesion&amp#27;[0m                   &amp#27;[90m# steps.LoginSteps.abrirPaginaInicioSesion()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mel usuario ingresa el correo &amp#27;[0m&amp#27;[32m&amp#27;[1m"fabian@gmail.com"&amp#27;[0m&amp#27;[32m y la contrasena &amp#27;[0m&amp#27;[32m&amp#27;[1m"123456789"&amp#27;[0m &amp#27;[90m# steps.LoginSteps.ingresaCredenciales(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mhace clic en el boton de inicio de sesion&amp#27;[0m                                    &amp#27;[90m# steps.LoginSteps.clicBotonInicioSesion()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mel sistema muestra el resultado &amp#27;[0m&amp#27;[31m&amp#27;[1m"exitoso"&amp#27;[0m                                   &amp#27;[90m# steps.LoginSteps.sistemaMuestraResultado(java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.opentest4j.AssertionFailedError: La URL despues del login no es la esperada. ==> expected: <https://courses.ultimateqa.com/collections> but was: <https://courses.ultimateqa.com/users/sign_in>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1156)
+	at steps.LoginSteps.sistemaMuestraResultado(LoginSteps.java:35)
+	at âœ½.el sistema muestra el resultado "exitoso"(classpath:features/Login.feature:11)
+&amp#27;[0m
+El escenario ha fallado. Tomando captura de pantalla.
+
+    Embedding Captura de escenario fallido [image/png 47962 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[ago. 08, 2025 8:39:22 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+ago. 08, 2025 8:39:22 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.66. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Example #1.2" classname="Examples" time="4.955">
+    <system-out><![CDATA[
+@Login @Regression @SmokeTest
+Scenario Outline: Validacion de inicio de sesion con diferentes credenciales             &amp#27;[90m# features/Login.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mel usuario se encuentra en la pagina de inicio de sesion&amp#27;[0m                         &amp#27;[90m# steps.LoginSteps.abrirPaginaInicioSesion()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mel usuario ingresa el correo &amp#27;[0m&amp#27;[32m&amp#27;[1m"fabian@gmail.com"&amp#27;[0m&amp#27;[32m y la contrasena &amp#27;[0m&amp#27;[32m&amp#27;[1m"pass-incorrecto"&amp#27;[0m &amp#27;[90m# steps.LoginSteps.ingresaCredenciales(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mhace clic en el boton de inicio de sesion&amp#27;[0m                                          &amp#27;[90m# steps.LoginSteps.clicBotonInicioSesion()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mel sistema muestra el resultado &amp#27;[0m&amp#27;[32m&amp#27;[1m"fallido"&amp#27;[0m                                         &amp#27;[90m# steps.LoginSteps.sistemaMuestraResultado(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[ago. 08, 2025 8:39:25 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+ago. 08, 2025 8:39:25 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.66. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Example #1.3" classname="Examples" time="5.392">
+    <system-out><![CDATA[
+@Login @Regression @SmokeTest
+Scenario Outline: Validacion de inicio de sesion con diferentes credenciales       &amp#27;[90m# features/Login.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mel usuario se encuentra en la pagina de inicio de sesion&amp#27;[0m                   &amp#27;[90m# steps.LoginSteps.abrirPaginaInicioSesion()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mel usuario ingresa el correo &amp#27;[0m&amp#27;[32m&amp#27;[1m"usuario@qa.com"&amp#27;[0m&amp#27;[32m y la contrasena &amp#27;[0m&amp#27;[32m&amp#27;[1m"Password123"&amp#27;[0m &amp#27;[90m# steps.LoginSteps.ingresaCredenciales(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mhace clic en el boton de inicio de sesion&amp#27;[0m                                    &amp#27;[90m# steps.LoginSteps.clicBotonInicioSesion()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mel sistema muestra el resultado &amp#27;[0m&amp#27;[32m&amp#27;[1m"fallido"&amp#27;[0m                                   &amp#27;[90m# steps.LoginSteps.sistemaMuestraResultado(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[ago. 08, 2025 8:39:30 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+ago. 08, 2025 8:39:30 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.66. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Registro de un nuevo usuario de forma exitosa" classname="Funcionalidad de Registro de Usuario" time="0.0">
+    <skipped message="&apos;cucumber.filter.tags=@SmokeTest&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Registro fallido al usar un correo ya existente" classname="Funcionalidad de Registro de Usuario" time="0.735">
+    <error message="The step &apos;un usuario nuevo se encuentra en la pagina de registro&apos; and 5 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;un usuario nuevo se encuentra en la pagina de registro&quot;)&#10;public void un_usuario_nuevo_se_encuentra_en_la_pagina_de_registro() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;ingresa su nombre {string} y su apellido {string}&quot;)&#10;public void ingresa_su_nombre_y_su_apellido(String string, String string2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;ingresa su correo electronico {string} que ya esta en uso&quot;)&#10;public void ingresa_su_correo_electronico_que_ya_esta_en_uso(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;ingresa una contrasena valida&quot;)&#10;public void ingresa_una_contrasena_valida() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;hace clic en el boton de registro&quot;)&#10;public void hace_clic_en_el_boton_de_registro() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;el sistema muestra un mensaje de error indicando que el correo ya existe&quot;)&#10;public void el_sistema_muestra_un_mensaje_de_error_indicando_que_el_correo_ya_existe() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'un usuario nuevo se encuentra en la pagina de registro' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("un usuario nuevo se encuentra en la pagina de registro")
+public void un_usuario_nuevo_se_encuentra_en_la_pagina_de_registro() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("ingresa su nombre {string} y su apellido {string}")
+public void ingresa_su_nombre_y_su_apellido(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("ingresa su correo electronico {string} que ya esta en uso")
+public void ingresa_su_correo_electronico_que_ya_esta_en_uso(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("ingresa una contrasena valida")
+public void ingresa_una_contrasena_valida() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("hace clic en el boton de registro")
+public void hace_clic_en_el_boton_de_registro() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("el sistema muestra un mensaje de error indicando que el correo ya existe")
+public void el_sistema_muestra_un_mensaje_de_error_indicando_que_el_correo_ya_existe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.junit.platform.engine.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:22)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:114)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+    <system-out><![CDATA[
+@Registro @Regression @SmokeTest
+Scenario: Registro fallido al usar un correo ya existente                       &amp#27;[90m# features/Registro.feature:16&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mun usuario nuevo se encuentra en la pagina de registro&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mingresa su nombre "Usuario" y su apellido "Existente"&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mingresa su correo electronico "test@google.com" que ya esta en uso&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mingresa una contrasena valida&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mhace clic en el boton de registro&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mel sistema muestra un mensaje de error indicando que el correo ya existe&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[ago. 08, 2025 8:39:35 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+ago. 08, 2025 8:39:35 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.66. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>

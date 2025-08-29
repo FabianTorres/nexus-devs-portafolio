@@ -1,0 +1,50 @@
+{
+  "POST Crear Usuario" : {
+    "transaction" : "POST Crear Usuario",
+    "sampleCount" : 59,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 270.7796610169491,
+    "medianResTime" : 261.0,
+    "minResTime" : 251.0,
+    "maxResTime" : 470.0,
+    "pct1ResTime" : 292.0,
+    "pct2ResTime" : 313.0,
+    "pct3ResTime" : 470.0,
+    "throughput" : 1.0325877699604467,
+    "receivedKBytesPerSec" : 1.4080664629931046,
+    "sentKBytesPerSec" : 0.27629789938394766
+  },
+  "GET Usuario (ID 2)" : {
+    "transaction" : "GET Usuario (ID 2)",
+    "sampleCount" : 59,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 149.5084745762712,
+    "medianResTime" : 139.0,
+    "minResTime" : 117.0,
+    "maxResTime" : 525.0,
+    "pct1ResTime" : 179.0,
+    "pct2ResTime" : 184.0,
+    "pct3ResTime" : 525.0,
+    "throughput" : 1.0240388787642105,
+    "receivedKBytesPerSec" : 1.7102344224594288,
+    "sentKBytesPerSec" : 0.15200577106656252
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 118,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 210.14406779661022,
+    "medianResTime" : 251.5,
+    "minResTime" : 117.0,
+    "maxResTime" : 525.0,
+    "pct1ResTime" : 272.1,
+    "pct2ResTime" : 292.25,
+    "pct3ResTime" : 514.5500000000002,
+    "throughput" : 2.0006103557017396,
+    "receivedKBytesPerSec" : 3.034642057110644,
+    "sentKBytesPerSec" : 0.41614258375436575
+  }
+}

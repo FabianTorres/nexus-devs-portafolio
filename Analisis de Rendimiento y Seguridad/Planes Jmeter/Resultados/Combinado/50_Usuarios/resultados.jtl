@@ -1,0 +1,101 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1756082053053,538,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-1,text,true,,1710,152,2,2,https://reqres.in/api/users/2,535,0,464
+1756082054001,134,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-2,text,true,,1710,152,2,2,https://reqres.in/api/users/2,134,0,75
+1756082055009,263,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-2,text,true,,1391,274,3,3,https://reqres.in/api/users,263,0,0
+1756082055082,508,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-1,text,true,,1392,274,3,3,https://reqres.in/api/users,508,0,0
+1756082055729,136,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-3,text,true,,1710,152,2,2,https://reqres.in/api/users/2,136,0,75
+1756082056594,128,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-4,text,true,,1710,152,3,3,https://reqres.in/api/users/2,128,0,72
+1756082056680,265,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-3,text,true,,1395,274,3,3,https://reqres.in/api/users,264,0,0
+1756082056878,155,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-5,text,true,,1710,152,2,2,https://reqres.in/api/users/2,155,0,81
+1756082057799,470,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-5,text,true,,1395,274,3,3,https://reqres.in/api/users,470,0,0
+1756082058196,136,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-6,text,true,,1710,152,3,3,https://reqres.in/api/users/2,136,0,79
+1756082057888,470,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-4,text,true,,1395,274,3,3,https://reqres.in/api/users,469,0,0
+1756082059021,139,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-7,text,true,,1710,152,2,2,https://reqres.in/api/users/2,139,0,79
+1756082059737,260,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-6,text,true,,1391,274,3,3,https://reqres.in/api/users,260,0,0
+1756082059927,125,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-8,text,true,,1710,152,2,2,https://reqres.in/api/users/2,125,0,77
+1756082059856,255,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-7,text,true,,1391,274,2,2,https://reqres.in/api/users,255,0,0
+1756082060824,147,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-9,text,true,,1710,152,2,2,https://reqres.in/api/users/2,147,0,74
+1756082060860,261,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-8,text,true,,1400,274,2,2,https://reqres.in/api/users,260,0,0
+1756082062120,256,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-9,text,true,,1395,274,3,3,https://reqres.in/api/users,256,0,0
+1756082062537,153,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-10,text,true,,1710,152,2,2,https://reqres.in/api/users/2,152,0,79
+1756082063333,158,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-11,text,true,,1710,152,3,3,https://reqres.in/api/users/2,158,0,77
+1756082063555,257,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-10,text,true,,1400,274,3,3,https://reqres.in/api/users,256,0,0
+1756082063955,169,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-12,text,true,,1710,152,2,2,https://reqres.in/api/users/2,169,0,99
+1756082064238,284,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-11,text,true,,1399,274,3,3,https://reqres.in/api/users,284,0,0
+1756082065286,257,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-12,text,true,,1404,274,3,3,https://reqres.in/api/users,257,0,0
+1756082065431,155,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-13,text,true,,1710,152,2,2,https://reqres.in/api/users/2,155,0,79
+1756082066315,286,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-13,text,true,,1403,274,3,3,https://reqres.in/api/users,285,0,0
+1756082066772,154,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-14,text,true,,1710,152,2,2,https://reqres.in/api/users/2,154,0,87
+1756082067382,138,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-15,text,true,,1710,152,3,3,https://reqres.in/api/users/2,138,0,72
+1756082067483,346,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-14,text,true,,1403,274,3,3,https://reqres.in/api/users,346,0,0
+1756082068134,256,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-15,text,true,,1402,274,3,3,https://reqres.in/api/users,256,0,0
+1756082068579,125,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-16,text,true,,1710,152,2,2,https://reqres.in/api/users/2,124,0,71
+1756082068960,159,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-17,text,true,,1710,152,2,2,https://reqres.in/api/users/2,159,0,80
+1756082069584,506,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-16,text,true,,1395,274,3,3,https://reqres.in/api/users,506,0,0
+1756082069905,259,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-17,text,true,,1395,274,2,2,https://reqres.in/api/users,259,0,0
+1756082070384,143,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-18,text,true,,1710,152,2,2,https://reqres.in/api/users/2,143,0,77
+1756082071223,131,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-19,text,true,,1710,152,3,3,https://reqres.in/api/users/2,131,0,74
+1756082071417,316,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-18,text,true,,1395,274,3,3,https://reqres.in/api/users,316,0,0
+1756082071949,148,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-20,text,true,,1710,152,2,2,https://reqres.in/api/users/2,148,0,79
+1756082071941,317,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-19,text,true,,1390,274,2,2,https://reqres.in/api/users,317,0,0
+1756082073393,272,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-20,text,true,,1400,274,3,3,https://reqres.in/api/users,272,0,0
+1756082073715,145,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-21,text,true,,1710,152,2,2,https://reqres.in/api/users/2,145,0,73
+1756082074763,121,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-22,text,true,,1710,152,3,3,https://reqres.in/api/users/2,121,0,67
+1756082075372,130,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-23,text,true,,1710,152,4,4,https://reqres.in/api/users/2,130,0,70
+1756082075279,263,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-21,text,true,,1399,274,4,4,https://reqres.in/api/users,263,0,0
+1756082075525,258,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-22,text,true,,1394,274,3,3,https://reqres.in/api/users,257,0,0
+1756082075973,137,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-24,text,true,,1710,152,2,2,https://reqres.in/api/users/2,137,0,70
+1756082076271,268,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-23,text,true,,1395,274,3,3,https://reqres.in/api/users,268,0,0
+1756082076911,136,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-25,text,true,,1710,152,2,2,https://reqres.in/api/users/2,136,0,81
+1756082077052,255,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-24,text,true,,1404,274,2,2,https://reqres.in/api/users,255,0,0
+1756082078061,153,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-26,text,true,,1710,152,2,2,https://reqres.in/api/users/2,153,0,88
+1756082078107,261,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-25,text,true,,1400,274,3,3,https://reqres.in/api/users,260,0,0
+1756082078875,137,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-27,text,true,,1710,152,2,2,https://reqres.in/api/users/2,137,0,76
+1756082079204,257,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-26,text,true,,1404,274,3,3,https://reqres.in/api/users,257,0,0
+1756082080209,131,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-28,text,true,,1710,152,3,3,https://reqres.in/api/users/2,131,0,70
+1756082080092,280,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-27,text,true,,1404,274,3,3,https://reqres.in/api/users,280,0,0
+1756082081256,183,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-29,text,true,,1710,152,3,3,https://reqres.in/api/users/2,183,0,79
+1756082081190,259,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-28,text,true,,1400,274,3,3,https://reqres.in/api/users,259,0,0
+1756082082146,252,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-29,text,true,,1399,274,3,3,https://reqres.in/api/users,252,0,0
+1756082082478,141,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-30,text,true,,1710,152,2,2,https://reqres.in/api/users/2,141,0,77
+1756082083576,128,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-31,text,true,,1710,152,3,3,https://reqres.in/api/users/2,128,0,69
+1756082083783,258,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-30,text,true,,1390,274,3,3,https://reqres.in/api/users,258,0,0
+1756082084342,133,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-32,text,true,,1710,152,3,3,https://reqres.in/api/users/2,133,0,72
+1756082084470,255,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-31,text,true,,1390,274,3,3,https://reqres.in/api/users,255,0,0
+1756082085331,256,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-32,text,true,,1398,274,3,3,https://reqres.in/api/users,256,0,0
+1756082085547,119,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-33,text,true,,1710,152,2,2,https://reqres.in/api/users/2,119,0,75
+1756082086237,139,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-34,text,true,,1710,152,3,3,https://reqres.in/api/users/2,139,0,78
+1756082086320,262,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-33,text,true,,1393,274,3,3,https://reqres.in/api/users,262,0,0
+1756082087345,149,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-35,text,true,,1710,152,3,3,https://reqres.in/api/users/2,149,0,85
+1756082087553,255,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-34,text,true,,1394,274,3,3,https://reqres.in/api/users,255,0,0
+1756082088382,145,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-36,text,true,,1710,152,3,3,https://reqres.in/api/users/2,145,0,77
+1756082088697,282,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-35,text,true,,1395,274,3,3,https://reqres.in/api/users,282,0,0
+1756082089362,254,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-36,text,true,,1393,274,3,3,https://reqres.in/api/users,254,0,0
+1756082089601,123,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-37,text,true,,1711,152,2,2,https://reqres.in/api/users/2,123,0,76
+1756082089981,152,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-38,text,true,,1710,152,2,2,https://reqres.in/api/users/2,151,0,70
+1756082090929,267,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-38,text,true,,1393,274,3,3,https://reqres.in/api/users,267,0,0
+1756082091098,142,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-39,text,true,,1710,152,2,2,https://reqres.in/api/users/2,142,0,70
+1756082091024,268,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-37,text,true,,1393,274,2,2,https://reqres.in/api/users,268,0,0
+1756082091819,126,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-40,text,true,,1710,152,2,2,https://reqres.in/api/users/2,126,0,66
+1756082091962,260,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-39,text,true,,1393,274,2,2,https://reqres.in/api/users,260,0,0
+1756082093265,134,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-41,text,true,,1710,152,3,3,https://reqres.in/api/users/2,134,0,78
+1756082093325,253,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-40,text,true,,1394,274,3,3,https://reqres.in/api/users,252,0,0
+1756082094036,125,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-42,text,true,,1710,152,2,2,https://reqres.in/api/users/2,125,0,78
+1756082094760,289,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-41,text,true,,1399,274,3,3,https://reqres.in/api/users,289,0,0
+1756082095191,127,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-43,text,true,,1710,152,3,3,https://reqres.in/api/users/2,127,0,70
+1756082095384,258,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-42,text,true,,1399,274,3,3,https://reqres.in/api/users,258,0,0
+1756082095821,255,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-43,text,true,,1390,274,2,2,https://reqres.in/api/users,255,0,0
+1756082096574,139,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-44,text,true,,1710,152,2,2,https://reqres.in/api/users/2,139,0,74
+1756082097422,139,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-45,text,true,,1710,152,3,3,https://reqres.in/api/users/2,139,0,86
+1756082097954,150,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-46,text,true,,1710,152,3,3,https://reqres.in/api/users/2,150,0,76
+1756082097946,253,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-44,text,true,,1391,274,3,3,https://reqres.in/api/users,253,0,0
+1756082098388,255,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-45,text,true,,1391,274,3,3,https://reqres.in/api/users,255,0,0
+1756082098761,257,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-46,text,true,,1394,274,2,2,https://reqres.in/api/users,257,0,0
+1756082099765,159,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-47,text,true,,1710,152,2,2,https://reqres.in/api/users/2,158,0,69
+1756082100653,170,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-48,text,true,,1711,152,3,3,https://reqres.in/api/users/2,170,0,77
+1756082100811,263,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-47,text,true,,1395,274,3,3,https://reqres.in/api/users,263,0,0
+1756082101567,188,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-49,text,true,,1710,152,3,3,https://reqres.in/api/users/2,188,0,77
+1756082101691,311,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-48,text,true,,1399,274,3,3,https://reqres.in/api/users,311,0,0
+1756082102386,265,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-49,text,true,,1399,274,2,2,https://reqres.in/api/users,264,0,0
+1756082102595,137,GET Usuario (ID 2),200,OK,Get Masivo y post masivo 1-50,text,true,,1710,152,1,1,https://reqres.in/api/users/2,136,0,74
+1756082104132,269,POST Crear Usuario,201,Created,Get Masivo y post masivo 1-50,text,true,,1395,274,1,1,https://reqres.in/api/users,269,0,0

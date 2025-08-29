@@ -1,0 +1,57 @@
+-------------------------------------------------------------------------------
+Test set: steps.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 1, Skipped: 1, Time elapsed: 14.97 s <<< FAILURE! -- in steps.TestRunner
+Examples.Example #1.1 -- Time elapsed: 3.618 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: La URL despues del login no es la esperada. ==> expected: <https://courses.ultimateqa.com/collections> but was: <https://courses.ultimateqa.com/users/sign_in>
+	at steps.LoginSteps.sistemaMuestraResultado(LoginSteps.java:35)
+	at ✽.el sistema muestra el resultado "exitoso"(classpath:features/Login.feature:11)
+
+Funcionalidad de Registro de Usuario.Registro fallido al usar un correo ya existente -- Time elapsed: 0.735 s <<< ERROR!
+io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'un usuario nuevo se encuentra en la pagina de registro' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("un usuario nuevo se encuentra en la pagina de registro")
+public void un_usuario_nuevo_se_encuentra_en_la_pagina_de_registro() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("ingresa su nombre {string} y su apellido {string}")
+public void ingresa_su_nombre_y_su_apellido(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("ingresa su correo electronico {string} que ya esta en uso")
+public void ingresa_su_correo_electronico_que_ya_esta_en_uso(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("ingresa una contrasena valida")
+public void ingresa_una_contrasena_valida() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("hace clic en el boton de registro")
+public void hace_clic_en_el_boton_de_registro() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("el sistema muestra un mensaje de error indicando que el correo ya existe")
+public void el_sistema_muestra_un_mensaje_de_error_indicando_que_el_correo_ya_existe() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.junit.platform.engine.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:22)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:114)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
